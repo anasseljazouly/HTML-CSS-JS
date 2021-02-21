@@ -1,0 +1,65 @@
+*{
+	box-sizing: border-box;
+	font-family: Arial,Helvetica,sans-serif;
+}
+
+h1{
+	text-align:center;
+	margin: 50px;
+}
+.partie{
+	background-color:gray;
+	border:1px solid black;
+	margin: 10px 10px 20px 10px;
+	overflow: visible;
+}
+p{
+	padding: 10px;
+	clear: right;
+}
+h3{
+	margin: 2px;
+}
+div #titre1{
+	background-color: yellow;
+	float: right;
+	border:1px solid black;
+	width: 130px;
+}
+div #titre2{
+	color: white;
+	background-color: red;
+	float: right;
+	border:1px solid black;
+	width: 130px;
+}
+div #titre3{
+	background-color: green;
+	float: right;
+	border:1px solid black;
+	width: 130px;
+}
+
+div h3{
+	text-align: center;
+}
+
+@media (min-width: 992px)
+{
+	section{
+		width: 33.33%;
+		float: left;
+	}
+}
+
+@media (min-width:768px) and (max-width: 991px)
+{
+	section{
+		width: 50%;
+		float: left;
+	}
+	#section3{
+  	width: 100%;
+	}
+}
+
