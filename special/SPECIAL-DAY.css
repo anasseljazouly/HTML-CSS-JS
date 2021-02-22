@@ -1224,8 +1224,9 @@
   }
 
   .u-section-7 .u-line-1 {
-    height: 208px;
-    top: 791px;
+    height: 169px;
+    transform-origin: center bottom;
+    top: 829px;
     right: 37px;
   }
 
@@ -1320,8 +1321,9 @@
   }
 
   .u-section-7 .u-line-1 {
-    top: 525px;
-    right: 32px;
+    height: 108px;
+    top: 563px;
+    right: 30px;
   }
 
   .u-section-7 .u-layout-cell-2 {
